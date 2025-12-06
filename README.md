@@ -10,7 +10,9 @@ This project bypasses high-level frameworks (PyTorch) to interact directly with 
 
 ## 📸 System Dashboard
 *Real-time verification of C++ execution vs PyTorch reference.*
-![Dashboard](assets/dashboard.png)
+
+![Dashboard](https://github.com/Adityajl/cuda-transformer-engine/blob/master/assets/dashboard_view.png)
+
 
 ## 🔧 Architecture
 The engine implements a standard Feed-Forward Network (FFN) pipeline using custom CUDA kernels:
