@@ -23,7 +23,7 @@ The engine implements a standard Feed-Forward Network (FFN) pipeline using custo
 ## 📊 Numerical Verification
 We validated the CUDA output against a PyTorch reference implementation ("Golden Data").
 
-![Verification](assets/verification.png)
+![Verification](https://github.com/Adityajl/cuda-transformer-engine/blob/master/assets/numerical_verification.png)
 
 ### The "Non-Associativity" Problem
 You will notice a max error of `~5.8e-05`. This is **expected behavior** in High-Performance Computing.
